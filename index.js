@@ -92,12 +92,6 @@ async function updateGist(data) {
 
   // Used to index the API response
   const keyMappings = {
-    Running: {
-      key: "ytd_run_totals"
-    },
-    Swimming: {
-      key: "ytd_swim_totals"
-    },
     Cycling: {
       key: "ytd_ride_totals"
     }
